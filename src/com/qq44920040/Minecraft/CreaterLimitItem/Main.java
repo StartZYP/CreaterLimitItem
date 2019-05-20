@@ -32,6 +32,7 @@ public class Main extends JavaPlugin implements Listener {
 
     @EventHandler
     public void PlayerClickItem(InventoryClickEvent event){
+        //System.out.println("调试进入");
         if (!(ClickType.CREATIVE==event.getClick())){
             return;
         }
@@ -39,7 +40,7 @@ public class Main extends JavaPlugin implements Listener {
             Player p = (Player) event.getWhoClicked();
             ItemStack currentItem = event.getCursor();
             String ItemName = currentItem.getType().name();
-            System.out.println(ItemName);
+            //System.out.println(ItemName);
             if (ItemNames.contains(ItemName)){
                 event.setCancelled(true);
                 p.sendMessage(Msg);
