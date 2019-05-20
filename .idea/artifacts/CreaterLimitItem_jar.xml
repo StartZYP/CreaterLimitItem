@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="CreaterLimitItem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CreaterLimitItem_jar</output-path>
+    <root id="root">
+      <element id="archive" name="CreaterLimitItem.jar">
+        <element id="module-output" name="CreaterLimitItem" />
+      </element>
+    </root>
+  </artifact>
+</component>
